@@ -1,0 +1,81 @@
+                                                                LINUX COMMANDS
+/,~   ---- root
+$ cd ---- change directory 
+$ cd - ----Home
+$ cd dirname 
+$ man -- will give you the info about the command
+$ ls -list 
+$ ls -l  -- will display the long list 
+$ls -la --- will dispaly the all the files along with the hidden files
+$ ls -a -- will only display the hidden files
+$ ls -ltr -- will display the list time in reverse order
+$ ls -lt -- will display the list along with time
+ls -lR -- will display recursively 
+ls -ld -- will display the list of directories
+pwd -- present working directory
+clear - clear the entire text 
+touch - to create a new file
+$cat -- to display the content in the file 
+$head-- will display the lines from the top 
+$tail -- will display the line from the bottom 
+$chmod --will change the mode of permissions eg(chmod 777 sahithi)
+$chown-- will change the mode of permissions for the owner 
+$chgrp -- will change the grp name
+| pipe-- is used to as a connection between 2 commands
+sudo -i -- will take u to the root user
+$ history -- to get the history 
+ too add a group or user name -- sudo groupadd new name
+move command: 
+mv one file to another with no copy of data in the previous file and to rename a file or a directory 
+remove : 
+rm -r file name /directory name -- to delete the file or directory  with files or data in it.
+rmdir dirname - to remove the directory which is empty
+
+
+IF U WANT TO SEE ALL AVAILABLE USERS: compgen -u  
+                                                                                      VI SHORTCUTS 
+i - insert text 
+:wq! -- to save and exit 
+:q!-- to exit without saving it
+:q-- to exit without saving it
+^-- will take the cursor to the beginning of the line
+$-- will take the cursor to the end of the line
+d^-- to get to the beginning of the line
+E-- will take u to the end of  the line
+L-- will take u to the bottom of the screen 
+k-- one step before
+H -- to the top of the sceen
+a--insert text after the cursor 
+I- insert text before the cursor 
+zero -- goes to the frst position of the current linr
+"o"-- goes to the next line and strts inserting 
+"O"-- goes to the previous line and starts inserting 
+J - to join or merge 2 lines
+j --is to go to the next line
+/n- takes u to the respective word after slash 
+:n - to go to  a number 
+: set a number - to set a number
+:set nonumber- to remove setting number
+/A to search a stream 
+:/s/oldname/newname - to replace the names 
+:sh -- execute shell commands
+COPY AND PASTE COMMANDS IN VI:
+3yy - to copy 
+yy3- to copy
+p - to paste 
+DELETE OPTIONS IN VI :
+:%d== is to delete the entire text in the file 
+dw= to delete a word
+dd== to delete a line
+u == to undo delete
+x==  to delete a line
+X== to delete a character at a time
+d$/D== deletes the line after the cursor
+d^==deletes the characters before the cursor
+
+TO GO INTO A VI TEXT EDITOR 
+vi 
+vi filename
+:e edit new file 
+TO INSTALL ANYTHING IN LINUX :
+$ sudo apt-get install http 
